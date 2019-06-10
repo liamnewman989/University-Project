@@ -1,0 +1,9 @@
+{
+    "solidity.enabledSolium": false,
+    "solidity.linter": "solhint",
+    "solidity.compilerOptions.optimizer.enabled": true,
+    // "solidity.compilerOptions.remappings": []
+    "solidity.enabledAsYouTypeCompilationErrorCheck": true,
+    "workbench.colorCustomizations": {},
+    // "solidity.solhint.rules": {}
+}

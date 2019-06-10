@@ -1,0 +1,284 @@
+{
+  "contractName": "Info",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol\":\"Info\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol\":{\"keccak256\":\"0x7127529f28319cd96727a69ba7f482b00eef046f267741f7f6a76a4adf84037b\",\"urls\":[\"bzzr://6a0a4570c08aa83313c1dafb644e837564d5f20bb58b42c83d3c8ac4e62d9766\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205548e66231fd90d6b12cb7e0e877b795665f9bc8498b024d0fc073f6906fef440029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205548e66231fd90d6b12cb7e0e877b795665f9bc8498b024d0fc073f6906fef440029",
+  "sourceMap": "24:123:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:123:0;;;;;;;",
+  "deployedSourceMap": "24:123:0:-;;;;;",
+  "source": "pragma solidity 0.5.8;\r\ncontract Info{\r\n    struct AddressInfo{\r\n        string name;\r\n        string ip;\r\n        address chain_address;\r\n    }\r\n}",
+  "sourcePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+  "ast": {
+    "absolutePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+    "exportedSymbols": {
+      "Info": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Info",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Info.AddressInfo",
+            "id": 8,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "73:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "73:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "ip",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "95:9:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "95:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "chain_address",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "115:21:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "115:7:0",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "AddressInfo",
+            "nodeType": "StructDefinition",
+            "scope": 9,
+            "src": "44:100:0",
+            "visibility": "public"
+          }
+        ],
+        "scope": 10,
+        "src": "24:123:0"
+      }
+    ],
+    "src": "0:147:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+    "exportedSymbols": {
+      "Info": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Info",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Info.AddressInfo",
+            "id": 8,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "73:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "73:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "ip",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "95:9:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "95:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "chain_address",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "115:21:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "115:7:0",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "AddressInfo",
+            "nodeType": "StructDefinition",
+            "scope": 9,
+            "src": "44:100:0",
+            "visibility": "public"
+          }
+        ],
+        "scope": 10,
+        "src": "24:123:0"
+      }
+    ],
+    "src": "0:147:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.10",
+  "updatedAt": "2019-06-09T16:25:03.277Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
