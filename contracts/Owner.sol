@@ -10,7 +10,7 @@ contract Owner is Info {
     //@param _name: real name of owner.
     //@param _ip: IP address of owner.
     //@param _chain_address retrieved from msg.sender.
-    function setOwnerAddress(string memory _name,string memory _ip)
+    constructor(string memory _name,string memory _ip)
     public
     {
         owner_address.name=_name;
@@ -25,23 +25,33 @@ contract Owner is Info {
         return (owner_address.name, owner_address.ip, owner_address.chain_address);
     }
     
-    //functions to set and get resource properties:
+    //functions to set and get resource properties added by owner:
+    //function addResource()
+    //
     function addResource(string memory name, string memory ip, address chain_address) public{
         Resource new_instance = new Resource(name,ip,chain_address);
         resources.push(new_instance);
     }
     
     function getResources()
-    view
     public
-    returns(string memory,string memory,address){
-        (string memory name, string memory ip,address addr) = resources[0].getResourceInfo();
-        return(name,ip,addr);
+    {
+        string memory name;
+        string memory ip;
+        address _addr;
+        for(uint128 index = 0; index < resources.length; index++){
+            (name, ip, _addr) = resources[index].getResourceInfo();
+            emit printResourceEvent(name, ip, _addr);
+        }
+        
     }
+    
+    
+    //Event Defintions:
+    event printResourceEvent(string Name, string IP, address ChainAddress);
 }
 
-//in this section we create Events:
-//This is from PC
+
 
 
 

@@ -1,15 +1,15 @@
 {
   "contractName": "Info",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol\":\"Info\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol\":{\"keccak256\":\"0x7127529f28319cd96727a69ba7f482b00eef046f267741f7f6a76a4adf84037b\",\"urls\":[\"bzzr://6a0a4570c08aa83313c1dafb644e837564d5f20bb58b42c83d3c8ac4e62d9766\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205548e66231fd90d6b12cb7e0e877b795665f9bc8498b024d0fc073f6906fef440029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205548e66231fd90d6b12cb7e0e877b795665f9bc8498b024d0fc073f6906fef440029",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/d/My Job/Applications/Desktop Applications/Solidity/Uni-Project/University-Project/University-Project/contracts/Info.sol\":\"Info\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/My Job/Applications/Desktop Applications/Solidity/Uni-Project/University-Project/University-Project/contracts/Info.sol\":{\"keccak256\":\"0x7127529f28319cd96727a69ba7f482b00eef046f267741f7f6a76a4adf84037b\",\"urls\":[\"bzzr://6a0a4570c08aa83313c1dafb644e837564d5f20bb58b42c83d3c8ac4e62d9766\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820a89cab4f15483b808307eb81a7168c0eca429c2f0e9333c5c26c57f3d228141f0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820a89cab4f15483b808307eb81a7168c0eca429c2f0e9333c5c26c57f3d228141f0029",
   "sourceMap": "24:123:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:123:0;;;;;;;",
   "deployedSourceMap": "24:123:0:-;;;;;",
   "source": "pragma solidity 0.5.8;\r\ncontract Info{\r\n    struct AddressInfo{\r\n        string name;\r\n        string ip;\r\n        address chain_address;\r\n    }\r\n}",
-  "sourcePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+  "sourcePath": "/mnt/d/My Job/Applications/Desktop Applications/Solidity/Uni-Project/University-Project/University-Project/contracts/Info.sol",
   "ast": {
-    "absolutePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+    "absolutePath": "/mnt/d/My Job/Applications/Desktop Applications/Solidity/Uni-Project/University-Project/University-Project/contracts/Info.sol",
     "exportedSymbols": {
       "Info": [
         9
@@ -139,7 +139,7 @@
     "src": "0:147:0"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/d/My Job/Applications/DesktopApps/Ethereum/University-Project/contracts/Info.sol",
+    "absolutePath": "/mnt/d/My Job/Applications/Desktop Applications/Solidity/Uni-Project/University-Project/University-Project/contracts/Info.sol",
     "exportedSymbols": {
       "Info": [
         9
@@ -274,7 +274,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.10",
-  "updatedAt": "2019-06-09T16:25:03.277Z",
+  "updatedAt": "2019-06-10T16:47:58.595Z",
   "devdoc": {
     "methods": {}
   },

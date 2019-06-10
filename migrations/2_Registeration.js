@@ -1,5 +1,5 @@
-const Register = artifacts.require("Registeration");
+const Owner = artifacts.require("Owner");
 
 module.exports = function (deployer) {
-  deployer.deploy(Register);
+  deployer.deploy(Owner, "Bahador Nemati", "192.10.12.20");
 };
