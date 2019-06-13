@@ -5,5 +5,11 @@
     // "solidity.compilerOptions.remappings": []
     "solidity.enabledAsYouTypeCompilationErrorCheck": true,
     "workbench.colorCustomizations": {},
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\pc-test-env\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.flake8Enabled": false,
+    // "python.linting.enabled": true,
     // "solidity.solhint.rules": {}
 }
